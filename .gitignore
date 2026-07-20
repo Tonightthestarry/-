@@ -1,3 +1,10 @@
+# === 构建产物 ===
+target/
+build/
+dist/
+*.class
+*.jar
+*.war
 *.log
 *.tmp
 *.bak
@@ -6,36 +13,36 @@
 .vscode/
 __pycache__/
 node_modules/
-target/
-build/
-dist/
-*.class
-*.jar
-*.war
+
+# === 数据库 ===
 .h2.db
 .mv.db
 .trace.db
 .lock.db
 data/
 hadoop-data/
-_project.pdf
-*.pdf
-test.txt
-query
+
+# === 大文件 ===
+hadoop-3.5.0/
+hadoop-3.5.0.tar.gz
+*.zip
+
+# === 无关项目 ===
+banaly2/
+banaly2-frontend/
+collegeopionsystem/
 city-platform/
 massdata-analy/
 vuetest/
 work1/
-out/
 海量数据挖掘/
 
-# Hadoop 二进制包（太大，文件名超长）
-hadoop-3.5.0/
-hadoop-3.5.0.tar.gz
+# === 根目录杂项 ===
+_project.pdf
+*.pdf
+test.txt
+query
+out/
 
-*.zip
-
-# 无关项目（不传 GitHub）
-banaly2/
-banaly2-frontend/
-collegeopionsystem/
+# 空目录（已迁移到 resources/static）
+banaly2-java/src/main/webapp/
