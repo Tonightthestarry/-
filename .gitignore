@@ -18,9 +18,24 @@ dist/
 .lock.db
 data/
 hadoop-data/
+_project.pdf
+*.pdf
+test.txt
+query
+city-platform/
+massdata-analy/
+vuetest/
+work1/
+out/
+海量数据挖掘/
+
+# Hadoop 二进制包（太大，文件名超长）
 hadoop-3.5.0/
-*.tar.gz
+hadoop-3.5.0.tar.gz
+
 *.zip
-*.rar
-.DS_Store
-Thumbs.db
+
+# 无关项目（不传 GitHub）
+banaly2/
+banaly2-frontend/
+collegeopionsystem/
